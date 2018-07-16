@@ -1,0 +1,33 @@
+.menueOpen {
+    transition: all 0.4s ease;
+    position: absolute;
+    top:0;
+    right:-150px;    
+    height: 100vh;
+    width:150px;
+    background-color: rgba(0, 4, 84, 0.581);
+}
+.menueClose {
+    transition: all 0.4s ease;
+    position: absolute;
+    top:0;
+    right:-400px;
+    height: 100vh;
+    width:250px;
+    background-color:rgba(0, 4, 84, 0.181);
+}
+.menu {
+    .iconHolder{
+        padding:15px;
+        h2{
+            color:#fff;
+            font-size: 19px;
+            cursor: pointer;
+            text-shadow: 0px 2px 1px #000;
+            i{font-size: 30px;}
+            &:hover{
+                text-shadow: 0 0 0;
+            }
+        }
+    }
+}
